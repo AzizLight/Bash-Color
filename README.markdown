@@ -2,10 +2,10 @@ Use this example.php with a color ready terminal:
 
     <?php
     
-    require_once 'bashcolor.php';
+    require_once 'colorize.php';
     
-    echo bash_color('hello world', 'blue', 'black');
+    echo colorize('hello world', 'blue', 'magenta');
     
     ?>
 
-then go into cli, type "php example.php" and have some nice colors in your terminal :).
+then go into a CLI, type "php example.php" and have some nice colors in your terminal :).
